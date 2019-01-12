@@ -13,8 +13,17 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet weak var window: NSWindow!
     @IBOutlet weak var textField: NSTextField!
+    @IBOutlet weak var label: NSTextField!
 
-
+    @IBAction func buttonPushed(sender:AnyObject){
+        label.stringValue = "Hi \(textField.stringValue)"
+    }
+    
+    
+    @IBAction func anotherButton(sender: AnyObject) {
+        label.stringValue = "blat"
+    }
+    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Insert code here to initialize your application
     }

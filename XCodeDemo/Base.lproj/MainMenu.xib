@@ -14,6 +14,8 @@
         <customObject id="-3" userLabel="Application"/>
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="XCodeDemo" customModuleProvider="target">
             <connections>
+                <outlet property="label" destination="0s8-2W-fdR" id="Ggv-fq-HNJ"/>
+                <outlet property="textField" destination="03Y-mF-0od" id="Gpf-TZ-Lul"/>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
             </connections>
         </customObject>
@@ -713,6 +715,20 @@
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
+                        <connections>
+                            <action selector="buttonPushedWithSender:" target="Voe-Tx-rLC" id="pm0-Qz-xBr"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hv5-XR-tgo">
+                        <rect key="frame" x="139" y="31" width="81" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="6Eo-5y-B6w">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="anotherButton:" target="Voe-Tx-rLC" id="NQR-fb-oeJ"/>
+                        </connections>
                     </button>
                 </subviews>
             </view>
