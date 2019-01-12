@@ -12,6 +12,7 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet weak var window: NSWindow!
+    @IBOutlet weak var textField: NSTextField!
 
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
