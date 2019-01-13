@@ -32,6 +32,17 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to tear down your application
     }
 
+    @IBAction func anotherpanel(sender:AnyObject){
+        let alert:NSAlert = NSAlert()
+        
+        alert.messageText = "Hello Mark"
+        
+        alert.beginSheetModal(for: self.window!, completionHandler: { (modalResponse: NSApplication.ModalResponse) -> Void in
+            if(modalResponse == NSApplication.ModalResponse.alertFirstButtonReturn){
+                print("Document deleted")
+            }
+        })
 
 }
 
+}
