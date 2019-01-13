@@ -14,7 +14,7 @@ class MarkCustomController : NSObject {
     var hello:String = "hello"
     
     @IBAction func anotherone(sender:AnyObject){
-        var alert:NSAlert = NSAlert()
+        let alert:NSAlert = NSAlert()
         
         alert.messageText = "Hello Mark"
         alert.runModal()
