@@ -720,14 +720,14 @@
                         </connections>
                     </button>
                     <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Hv5-XR-tgo">
-                        <rect key="frame" x="139" y="31" width="81" height="32"/>
+                        <rect key="frame" x="173" y="36" width="81" height="32"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="6Eo-5y-B6w">
                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                             <font key="font" metaFont="system"/>
                         </buttonCell>
                         <connections>
-                            <action selector="anotherButton:" target="Voe-Tx-rLC" id="NQR-fb-oeJ"/>
+                            <action selector="anotherButtonWithSender:" target="Voe-Tx-rLC" id="C1n-1w-HAO"/>
                         </connections>
                     </button>
                 </subviews>
